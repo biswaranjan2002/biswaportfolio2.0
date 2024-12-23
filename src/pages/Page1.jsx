@@ -27,7 +27,7 @@ function Page1() {
     <div id='Page1' onMouseMove={(e)=>{
       mouseMoving(e) 
       }} className='h-screen bg-white p-4'>
-      <div id='page1-in' className='h-full w-full shadow-xl px-10 shadow-zinc-600 bg-[url("./images/bg1.jpg")] rounded-[40px] bg-cover'>
+      <div id='page1-in' className='h-full w-full shadow-xl px-10 shadow-zinc-600 bg-[url("./images/bg1_51.jpeg")] rounded-[40px] bg-cover'>
         <img className='h-[150px] inline-block mt-3' src='https://biswaranjan2002.netlify.app/images/bslogo.png'></img>
         
         <TiltText abc={tiltRef} />
