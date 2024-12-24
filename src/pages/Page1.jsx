@@ -29,9 +29,7 @@ function Page1() {
       }} className='h-screen bg-white p-4'>
       <div 
         id='page1-in' 
-        className='h-full w-full shadow-xl px-10 shadow-zinc-600 rounded-[40px] bg-cover' 
-        style={{ backgroundImage: `url('./public/images/bg1.jpg')` }}
-      >
+        className='h-full w-full shadow-xl px-10 shadow-zinc-600 rounded-[40px] bg-[url("./public/images/bg1.jpg")] bg-cover'>
 
         <img className='h-[150px] inline-block mt-3' src='https://biswaranjan2002.netlify.app/images/bslogo.png'></img>
         
